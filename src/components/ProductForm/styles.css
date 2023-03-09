@@ -1,0 +1,60 @@
+#buttons-form-container {
+  display: flex;
+  justify-content: end;
+}
+
+#buttons-form-container .btn {
+  flex: 1;
+  height: 50px;
+  font-size: 1.2em;
+  font-weight: bold;
+  transition: 0.8s;
+}
+
+#buttons-form-container .btn-primary:hover {
+  background-color: white;
+  color: #0d6efd;
+}
+
+#buttons-form-container .btn-danger:hover {
+  background-color: white;
+  color: #dc3545;
+}
+
+#buttons-form-container .btn:first-child {
+  margin-right: 1em;
+}
+
+#button-add-image {
+  width: 100%;
+}
+
+@media (min-width: 576px) {
+  #buttons-form-container .btn {
+    max-width: 225px;
+  }
+
+  #buttons-form-container .btn:first-child {
+    margin-right: 1.2em;
+  }
+}
+
+@media (min-width: 992px) {
+  #button-add-image,
+  #button-help {
+    width: 50%;
+  }
+
+  #buttons-form-container {
+    margin-top: 3em;
+  }
+
+  #buttons-form-container .btn {
+    max-width: 300px;
+  }
+
+  #buttons-form-container .btn:first-child {
+    margin-right: 1.5em;
+  }
+}
+

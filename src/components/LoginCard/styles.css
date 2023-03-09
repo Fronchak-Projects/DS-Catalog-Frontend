@@ -1,0 +1,35 @@
+#login-card-container {
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#login-card-container h1 {
+  font-size: 3em;
+}
+
+#password-input-container {
+  position: relative;
+}
+
+#password-input-container i {
+  position: absolute;
+  right: 15px;
+  top: 2px;
+  font-size: 1.5em;
+}
+
+#login-card-container {
+  max-width: 480px;
+}
+
+@media (min-width: 768px) {
+  #login-card-container {
+    max-width: 500px;
+  }
+
+  #login-card-container {
+    height: 80vh;
+  }
+}

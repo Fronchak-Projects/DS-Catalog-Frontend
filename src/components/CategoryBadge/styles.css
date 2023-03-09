@@ -1,0 +1,10 @@
+.product-category {
+    display: inline-block;
+    text-align: center;
+    color: #424242;
+    font-weight: bold;
+    background-color: #8D8D8D;
+    border-radius: 0.3em;
+    font-size: 1em;
+    padding: 0.2em 0.6em;
+  }

@@ -1,0 +1,97 @@
+#sidebar-container {
+  background-color: #FFF;
+}
+
+.sidebar-link {
+  color: var(--gray-light-color);
+  background-color: #D2D2D2;
+  padding: 0.5em 1em;
+  display: inline-block;
+  width: 80%;
+  border-radius: 2em;
+  text-decoration: none;
+  font-size: 0.6em;
+}
+
+.sidebar-link.active {
+  color: var(--primary-color);
+  background: rgba(64, 123, 255, 0.3);
+}
+
+@media (min-width: 320px) {
+  .sidebar-link {
+      font-size: 0.8em;
+  }
+}
+
+@media (min-width: 400px) {
+  .sidebar-link {
+      font-size: 1em;
+  }
+}
+
+@media (min-width: 1200px) {
+  .sidebar-link {
+      border-radius: 0;
+      width: 100%;
+      padding: 1.2em 1.2em;
+      text-align: left;
+  }
+
+  #sidebar-container {
+      min-height: 90vh;
+  }
+}
+
+/* SEARCH CARD */
+
+.card-container {
+  border-radius: 10px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+#input-search-container {
+  position: relative;
+}
+
+#input-search-container i {
+  top: 7px;
+  right: 20px;
+  position: absolute;
+}
+
+#search-section-container input,
+#search-section-container select {
+  border-radius: 0;
+  border: none;
+  border-bottom: 1px solid var(--gray-light-color);
+}
+
+#search-section-container input:focus,
+#search-section-container select:focus {
+  box-shadow: none;
+  border-color: var(--gray-dark-color);
+}
+
+#button-clean-filter-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#button-clean-filter {
+font-size: 0.5em;
+border: 1px solid var(--gray-light-color);
+height: 90%;
+transition: 0.5s;
+}
+
+#button-clean-filter:hover {
+  color: var(--gray-dark-color);
+  border-color: var(--gray-dark-color);
+}
+
+/* Product Card */
+
+

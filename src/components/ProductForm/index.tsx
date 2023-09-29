@@ -116,6 +116,7 @@ const ProductForm = ({ handleOnSubmit, product, categories }: Props) => {
                   type="text"
                   name="imgUrl"
                   id="imgUrl"
+                  placeholder='Url da imagem'
                   className={`form-control ${errors.imgUrl ? 'is-invalid' : wasSubmited ? 'is-valid' : ''}`}
                 ></input>
                 <div className="invalid-feedback">
